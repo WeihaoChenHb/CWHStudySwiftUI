@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5300732A07ABCC00B4F065 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5300702A07ABCC00B4F065 /* FileHelper.swift */; };
+		DC5300742A07ABCC00B4F065 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5300712A07ABCC00B4F065 /* Sample.swift */; };
+		DC5300752A07ABCC00B4F065 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5300722A07ABCC00B4F065 /* Helpers.swift */; };
 		DCCF3E692A01EBB10073249F /* PockeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF3E682A01EBB10073249F /* PockeMasterApp.swift */; };
 		DCCF3E6B2A01EBB10073249F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF3E6A2A01EBB10073249F /* ContentView.swift */; };
 		DCCF3E6D2A01EBB20073249F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCF3E6C2A01EBB20073249F /* Assets.xcassets */; };
@@ -103,6 +106,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC5300702A07ABCC00B4F065 /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		DC5300712A07ABCC00B4F065 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		DC5300722A07ABCC00B4F065 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		DCCF3E652A01EBB10073249F /* PockeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PockeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCF3E682A01EBB10073249F /* PockeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockeMasterApp.swift; sourceTree = "<group>"; };
 		DCCF3E6A2A01EBB10073249F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +215,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC53006F2A07ABCC00B4F065 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DC5300702A07ABCC00B4F065 /* FileHelper.swift */,
+				DC5300712A07ABCC00B4F065 /* Sample.swift */,
+				DC5300722A07ABCC00B4F065 /* Helpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DCCF3E5C2A01EBB10073249F = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +252,7 @@
 				DCCF3E682A01EBB10073249F /* PockeMasterApp.swift */,
 				DCCF3E6A2A01EBB10073249F /* ContentView.swift */,
 				DCCF3F1D2A03434B0073249F /* PokemonInfoRow.swift */,
+				DC53006F2A07ABCC00B4F065 /* Utils */,
 				DCCF3E922A01EBF60073249F /* JSON */,
 				DCCF3E6C2A01EBB20073249F /* Assets.xcassets */,
 				DCCF3E6E2A01EBB20073249F /* Preview Content */,
@@ -589,8 +606,11 @@
 				DCCF3E6B2A01EBB10073249F /* ContentView.swift in Sources */,
 				DCCF3F222A0343BB0073249F /* AbilityViewModel.swift in Sources */,
 				DCCF3F1C2A01EE790073249F /* Ability.swift in Sources */,
+				DC5300752A07ABCC00B4F065 /* Helpers.swift in Sources */,
 				DCCF3F212A0343BB0073249F /* PokemonViewModel.swift in Sources */,
 				DCCF3E692A01EBB10073249F /* PockeMasterApp.swift in Sources */,
+				DC5300742A07ABCC00B4F065 /* Sample.swift in Sources */,
+				DC5300732A07ABCC00B4F065 /* FileHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

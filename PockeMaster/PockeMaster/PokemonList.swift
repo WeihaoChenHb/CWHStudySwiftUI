@@ -17,6 +17,7 @@ struct PokemonList: View {
 //        }
         ScrollView {
             LazyVStack {
+//                textfield
                 ForEach(PokemonViewModel.all) { pokemon in
                     PokemonInfoRow(
                         mode: pokemon,
